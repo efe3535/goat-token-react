@@ -5,7 +5,7 @@ import reactDom from 'react-dom';
 import emailjs from 'emailjs-com';
 const mail = require('./mail.json');
 
-class HelloReact extends Component {
+class SendReqPage extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {isToggleOn: true};
@@ -64,7 +64,7 @@ class MainPage extends Component {
 		reactDom.render(
 				<div>
 					<MainPage/>
-					<HelloReact/>
+					<SendReqPage/>
 				</div>, 
 				document.getElementById('root')
 		)
