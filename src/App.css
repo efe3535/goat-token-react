@@ -8,7 +8,17 @@
   pointer-events: none;
 }
 
-.goatdashboard {
+.name,.reason,.amount {
+	background-color:#1d2021;
+	color:#ebdbb2;
+	border:none;
+	width:240px;
+	margin:15px;
+	height:30px;
+	padding:10px;
+}
+
+.goatdashboard,.submit {
 	background-color: #282828;
 	color:			  #ebdbb2;
 	width: 144px;
@@ -18,16 +28,12 @@
 	transition-duration: 0.4s;
 }
 
-.goatdashboard:hover {
+.goatdashboard:hover,.submit:hover {
 	width: 160px;
 	box-shadow: 2px 2px #458588;
 	 transform: skewX(-5deg);
 	background-color: #323232;
 	border-radius: 0px;
-}
-
-.clickedshow {
-	color: #ebdbb2;
 }
 
 .goatheader {
